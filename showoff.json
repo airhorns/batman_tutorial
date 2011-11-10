@@ -1,1 +1,8 @@
-{ "name": "Code/Nature", "sections": [ {"section":"one"} ]}
+{ "name": "Batman", "sections": [
+  {"section":"intro"},
+  {"section":"basics"},
+  {"section":"apps"},
+  {"section":"models"},
+  {"section":"views"},
+  {"section":"liam"}
+]}

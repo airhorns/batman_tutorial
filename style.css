@@ -1,12 +1,44 @@
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
-* {
-  font-family: 'Lora', serif;
-  line-height: 1.25;
+body {
+  background-color: #424759;
 }
-blockquote {
-  font-size: 50px;
-  padding: 40px;
+.slide {
+  background-color: #FAE7AF;
+  color: #E64040;
+  border: none;
+  margin: none;
 }
-div.content {
-  padding: 0px 30px;
+
+a { text-decoration: none; color: #801734; }
+a:visited { text-decoration: none; color: #801734; }
+
+#footer {
+  background-color: #FB9943 !important;
+}
+
+code {
+  padding: 0 0.25em;
+  background-color: rgba(209,21,74, 0.25);
+  border-radius: 10px;
+}
+
+pre code {
+  padding: 0px;
+  background: none;
+  border-radius: auto;
+}
+
+pre code.longer {
+  font-size: 80%;
+}
+pre code.longerer {
+  font-size: 70%;
+}
+
+pre {
+  padding: 0.5em 1em;
+  background: none;
+}
+
+.small {
+  font-size: 40%;
 }
