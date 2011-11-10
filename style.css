@@ -1,26 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter|Inconsolata);
+
 body {
-  background-color: #424759;
+  font-family: 'Bitter', serif;
+  background-color: #2B2825;
 }
 .slide {
-  background-color: #FAE7AF;
-  color: #E64040;
   border: none;
   margin: none;
+  background-color:#FCF8BC;
+  color: #0B8C8F;
 }
 
-a { text-decoration: none; color: #801734; }
-a:visited { text-decoration: none; color: #801734; }
+.content {
+  padding: 0px 1em;
+}
+
+a { text-decoration: none; color: #D6156C; }
+a:visited { text-decoration: none; color: #D6156C; }
 
 #footer {
-  background-color: #FB9943 !important;
+  background-color: #CACF43 !important;
 }
 
 code {
-  padding: 0 0.25em;
-  background-color: rgba(209,21,74, 0.25);
+  padding: 0.05em 0.25em;
+  background-color: rgba(11,140,143, 0.25);
   border-radius: 10px;
+  font-family: 'Inconsolata', sans-serif;
 }
 
+pre {
+  padding: 0px !important;
+}
 pre code {
   padding: 0px;
   background: none;

@@ -4,5 +4,6 @@
   {"section":"apps"},
   {"section":"models"},
   {"section":"views"},
+  {"section":"controllers"},
   {"section":"liam"}
 ]}

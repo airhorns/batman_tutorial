@@ -50,9 +50,7 @@
     | | `+stylesheets/
     | |+controllers/
     | |+helpers/
-    | |+mailers/
     | |+models/
-    | `+views/
 
 .notes We've been using Sprockets to great success, and this is what a basic Batman app structure looks like. The whole client app lives in app/assets/javascripts. Haven't quite figured out where to put views, right now they are in there too.
 

@@ -3,7 +3,7 @@
 
 !SLIDE center
 
-# `class Shopify.Product extends Batman.Model`
+    class Product extends Batman.Model
 
 !SLIDE
 
@@ -17,6 +17,7 @@
     order = new Shopify.Order()
     order.calculateTotal()
 
+.notes Models like in Rails are classes and I say this is where all your domain/business logic goes. Use them to encapsulate the whole deal
 !SLIDE center
 
 # Boo
@@ -25,7 +26,7 @@
 
 ![backbone](backbone.png)
 
-!SLIDE
+!SLIDE bullets incremental
 
 # Domain <del>Logic</del> Data
 
@@ -37,7 +38,7 @@
     order = new Shopify.Order()
     order.get('total')
 
-Now if any `LineItem`'s cost changes, or if the `lineItems` collection changes, the total will be updated.
+ - Now if any `LineItem`'s cost changes, or if the `lineItems` collection changes, the total will be updated.
 
 !SLIDE
 
